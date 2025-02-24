@@ -1,9 +1,9 @@
-### tumor_detection
+# tumor_detection
 
 
 ## Chapter 4: Proposed work
-# 4.1 Experimental setup
-# 4.1.1 Computer configuration
+### 4.1 Experimental setup
+### 4.1.1 Computer configuration
 OS			: Windows / Linux
 RAM			: 16 GB
 HDD			: 256 GB
@@ -25,7 +25,7 @@ Dataset image resolution:
 To train the model, import the require machine learning library functions and proposed models. Set parameters like- Image size (128,128), Batch size (128), Epochs (100), Learning rate (0.0001), Random state (32). Preprocessing the data with rescale (1./255) and validation split (0.3). Split the data into Training (70%), Validation (20%), and Testing (10%). Defined models are CNN, VGG-16, VGG-19, ResNet101.After that, train the model and evaluate the score, i.e., training accuracy and loss, validation accuracy and loss, test accuracy and loss. To visually represent the outcomes, plot comparison of accuracy and loss graph of proposed models. For closer look of every trained model, plot the individual accuracy and loss graph. At last, generate the Confusion metrics and Performance metrics.
 ![image](https://github.com/user-attachments/assets/efa4e254-029a-4a30-a25c-698d42b592ce)
 
-# 4.4 Output
+### 4.4 Output
 Model		Training (%)	Validation (%)	Test (%)
 
 CNN	Accuracy	99.33	86.71	96.01
@@ -62,7 +62,7 @@ ResNet-101	Accuracy	90.84	80.28	88.58
 ![image](https://github.com/user-attachments/assets/3e2192fd-fd37-4792-8030-c62b499bc8c6)
 
 
-# 4.5 Confusion metrics
+### 4.5 Confusion metrics
 ![image](https://github.com/user-attachments/assets/782f3a05-01e0-44a1-a90e-3ee145303eac)
 
 ![image](https://github.com/user-attachments/assets/7f6d07df-d3d9-44dc-bf3b-4ec33fb59f35)
@@ -72,7 +72,7 @@ ResNet-101	Accuracy	90.84	80.28	88.58
 ![image](https://github.com/user-attachments/assets/f43d216b-f076-4509-90d5-e737722cdcfd)
 
 
-# 4.6 Performance metrics
+### 4.6 Performance metrics
 Model	Accuracy (%)		Precision	Recall	F1-score
 
 CNN	
@@ -91,7 +91,7 @@ ResNet101
 89	No tumor	0.89	0.90	0.90
 		Tumor	0.88	0.86	0.87
 
-# 4.7 Prediction
+### 4.7 Prediction
 ![image](https://github.com/user-attachments/assets/454d746c-5a91-42c2-9199-982265bd6db5)
 
 ![image](https://github.com/user-attachments/assets/73e8283f-c5b2-4e27-b8a8-ae494ed16b9d)
