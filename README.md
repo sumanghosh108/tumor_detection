@@ -1,5 +1,32 @@
 # tumor_detection
 
+## Chapter 2: Methods
+### 2.1 CNN
+A Convolution Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks. It is made up of multiple layers, including convolution layers, pooling layers and fully connected layers.
+![image](https://github.com/user-attachments/assets/e0d9af55-f58c-48fb-9d9b-cc1bc5472bdd)
+a. Convolution Layer
+The convolution layers are typically the first layer, abstracting the images using filters. Each filter’s response to the input image is represented by a set of features.
+![image](https://github.com/user-attachments/assets/69391ba8-4836-4735-93ab-3ab7ef9d15e3)
+The output of the convolutional layer can be expressed as:Vc=\left[\frac{M_C-F_C+2P}{S_C}+1\right]
+b. Pooling Layer
+The second layer, known as pooling, is added to the feature map to reduce size while maintaining key features. This reduction is performed with fewer parameters to prevent overfitting.
+![image](https://github.com/user-attachments/assets/733c382b-9573-40d8-9375-f4e95c487098)
+c. Fully Connected Layer
+In fully connected layers, the neuron applies a linear transformation to the input vector through a weight matrix. A non-linear transformation is then applied to the product through a non-linear activation function f.
+Equation for a non-linear transformation:     y_{jk}\left(x\right)=f\left(\sum_{i=1}^{n_H}{w_{jk}x_i+w_{j0}}\right)
+![image](https://github.com/user-attachments/assets/95fc7250-8ef2-43f0-ab39-48adfc8098df)
+## 2.2 ResNet101
+A residual neural network is a deep learning architecture in which the layers learn residual functions with reference to the layer inputs. The residual connection stabilizes the training and convergence of deep neural networks with hundreds of layers.
+![image](https://github.com/user-attachments/assets/684191a3-40a6-4d7a-83be-8a1eb60c9afc)
+## 2.3 VGG-16
+VGG-16 is a CNN architecture, consisting of 16 layers, including 13 convolution layers and 3 fully connected layers. VGG16 is renowned for its simplicity and effectiveness, as well as its ability to achieve strong performance on various computer vision tasks. The model’s architecture features a stack of convolution layers followed by max-pooling layers, with progressively increasing depth.
+![image](https://github.com/user-attachments/assets/d2f37b72-634f-4774-a4eb-272cd1cd2e08)
+## 2.4 VGG-19
+VGG-19 is a deep CNN with 19 weight layers, comprising 16 convolutional layers and 3 fully connected layers. It trained on over 1.2 million images from the ImageNet database.
+![image](https://github.com/user-attachments/assets/7ed5abee-58cc-46b8-8eca-82c631536494)
+
+
+
 
 ## Chapter 4: Proposed work
 ### 4.1 Experimental setup
