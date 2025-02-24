@@ -100,6 +100,9 @@ ResNet101
 
 ![image](https://github.com/user-attachments/assets/987b478f-0306-447c-9f2a-67453f79dbb9)
 
+## Chapter 5: Conclusion
+The analysis revealed that the VGG19 model achieved the highest accuracy 98.74 among the tested architectures, demonstrating its strong potential for brain tumor prediction. However, all models exhibited signs of overfitting, as evidenced by discrepancies between training and validation/test performance metrics. This overfitting condition highlights the need for further refinement.
+In future iterations, we plan to address overfitting by training the models on a larger and more diverse dataset. This approach aims to improve generalization and enhance prediction accuracy, making the models more robust for real-world applications. By incorporating these improvements, we anticipate producing a more reliable and effective solution for brain tumor detection.
 
 
-
+###	Academic Project
