@@ -38,13 +38,13 @@ One of the major advantages of deep learning is its ability to handle vast amoun
 Deep learning also tackles the interpretability issue in traditional ML through advanced techniques like heatmaps and saliency maps, which highlight the areas of an image that the model focuses on while making its predictions. These visualization tools help clinicians understand the reasoning behind a model’s decision, offering more transparency and confidence in its findings. Although deep learning models remain complex, these interpretability aids make them more user-friendly in clinical environments and help ensure that clinicians can trust and validate the predictions, thereby reducing the risk of misdiagnosis.
 Another benefit of deep learning is its resistance to data biases due to its ability to learn robust patterns from diverse datasets. Techniques like data augmentation, where the model is trained on rotated, flipped, or cropped versions of images, help improve its generalization and prevent overfitting to specific demographics or imaging conditions. This flexibility makes deep learning models more effective across a broader range of cases, thus increasing their clinical utility.
 ### 1.8 The Models used
-Method Name 	Accuracy (%)
-CNN	96.01
-VGG-16	98.71
-VGG-19	98.74
-ResNet-101	88.58
-(Table 1: Model Accuracy and Comparison)
-In Table 1, we compared three models CNN, ResNet-101, and VGG-16 evaluating their performance and limitations for brain tumor detection. The baseline CNN, though effective, has a simpler architecture with fewer layers, making it less capable of capturing the intricate patterns often necessary for precise tumor identification in complex, high-dimensional medical images. This lack of depth limits its ability to distinguish subtle differences, reducing accuracy when handling diverse tumor types or stages.
+Method Name |	Accuracy (%)
+CNN |	96.01
+VGG-16 |	98.71
+VGG-19 |	98.74
+ResNet-101 |	88.58
+
+We compared three models CNN, ResNet-101, and VGG-16 evaluating their performance and limitations for brain tumor detection. The baseline CNN, though effective, has a simpler architecture with fewer layers, making it less capable of capturing the intricate patterns often necessary for precise tumor identification in complex, high-dimensional medical images. This lack of depth limits its ability to distinguish subtle differences, reducing accuracy when handling diverse tumor types or stages.
 VGG-16, a deep convolutional neural network, provides a balance between simplicity and depth. With its 16 layers, it has shown strong feature extraction capabilities, making it effective in identifying patterns within medical images. However, compared to VGG-19, VGG-16 has slightly fewer layers, which limits its ability to capture finer details in brain tumor images, potentially reducing its effectiveness in identifying smaller or less distinct tumor regions.
 ResNet-101, on the other hand, is a very deep network that incorporates residual connections to address the vanishing gradient problem, allowing it to learn efficiently even with many layers. While ResNet-101 is powerful, its complex structure requires significant computational resources and can sometimes lead to challenges with interpretability. Additionally, its high number of layers and residual blocks increase the risk of overfitting when trained on limited datasets, which is a common constraint in medical imaging.
 In light of these observations, we propose VGG-19 as an improved model for brain tumor detection. With its additional layers, VGG-19 offers enhanced feature extraction while maintaining a straightforward, interpretable architecture similar to VGG-16. This deeper structure allows VGG-19 to capture more intricate patterns, improving its ability to detect subtle tumor features and thus enhancing overall prediction accuracy. By addressing the specific gaps identified in CNN, ResNet-101, and VGG-16, VGG-19 is a more robust choice, better suited for accurate, generalizable, and clinically valuable tumor detection.
